@@ -113,7 +113,7 @@ Cards, the daily plan and empty states use 14px corners; dialogs use 18px. Butto
 
 - **Navigation and meal tabs:** pale active navigation with bold text; category selection adds a forest 2px underline. Buttons expose `aria-pressed`.
 - **Search and filters:** white bordered search with a 2px forest focus-within outline. Filter pills switch to forest/white when active. The portions/grams segmented control places its selected option on white with a small shadow.
-- **Recipe card:** photograph, favorite button, time/protein/calorie metadata, serif title, ingredient summary and divided action row. Selected add action becomes forest/white and changes to “В меню”. All 60 recipes have individual local generated photos; the catalog states they illustrate dishes rather than actual portions.
+- **Recipe card:** photograph, favorite button, time/protein/calorie metadata, serif title, ingredient summary and divided action row. Selected add action becomes forest/white and changes to “В меню”. All 80 recipes have individual local generated photos; the catalog states they illustrate dishes rather than actual portions.
 - **Daily plan:** pale panel, seven-day selector, total/progress bar and four meal slots. Selected day is forest/white; days with meals have a small dot. Empty slots use dashed borders; filled slots have thumbnails and remove controls.
 - **Dialogs:** native recipe, grocery and help dialogs; recipe detail has a photo hero, servings select, ingredient rows and numbered steps. Closing restores focus. Grocery checkboxes strike through checked names.
 - **Feedback and transfer:** centered forest toast appears above the bottom edge for 3200ms. Empty search/favorite states offer recovery. Import is a keyboard-focusable text button opening a hidden file input; export and print share its understated underlined style.
@@ -127,3 +127,7 @@ Global keyboard focus is a 3px terracotta outline offset 4px. Disabled buttons u
 - Do preserve the daily plan above the catalog on small screens.
 - Don't add large decorative shadows or card hover movement to this mostly flat system.
 - Don't treat generated photos as evidence of actual prepared serving size.
+
+The “Проще всего” filter selects recipes tagged easy. Cereal household measures are dry-cup measures (250 ml), before cooking.
+
+Ingredient mode switch removed in favour of household measures everywhere, including shopping; a 250 ml cup hint replaces it.

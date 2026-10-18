@@ -9,7 +9,7 @@ window.RECIPES = [
       {
         "food": "oats",
         "amount": 50,
-        "portion": "½ стакана сухих хлопьев"
+        "portion": "около ½ стакана сухих хлопьев"
       },
       {
         "food": "milk",
@@ -43,7 +43,7 @@ window.RECIPES = [
   {
     "id": "breakfast-2",
     "category": "breakfast",
-    "name": "Яйца с тостами и сыром",
+    "name": "Яйца с хлебом и сыром",
     "minutes": 12,
     "ingredients": [
       {
@@ -89,7 +89,7 @@ window.RECIPES = [
       {
         "food": "curd",
         "amount": 200,
-        "portion": "1 пачка 200 г"
+        "portion": "1 обычная пачка"
       },
       {
         "food": "banana",
@@ -158,8 +158,8 @@ window.RECIPES = [
   {
     "id": "breakfast-5",
     "category": "breakfast",
-    "name": "Тосты с тунцом и авокадо",
-    "minutes": 7,
+    "name": "Бутерброды с яйцом и сыром",
+    "minutes": 12,
     "ingredients": [
       {
         "food": "bread",
@@ -167,32 +167,32 @@ window.RECIPES = [
         "portion": "2 крупных ломтика"
       },
       {
-        "food": "tuna",
-        "amount": 120,
-        "portion": "небольшая банка без жидкости"
+        "food": "egg",
+        "amount": 100,
+        "portion": "2 средних яйца"
       },
       {
-        "food": "avocado",
-        "amount": 50,
-        "portion": "около ⅓ среднего плода"
+        "food": "creamcheese",
+        "amount": 20,
+        "portion": "около 1 ст. л."
       },
       {
         "food": "tomato",
-        "amount": 100,
-        "portion": "1 небольшой"
+        "amount": 150,
+        "portion": "1 средний"
       }
     ],
     "steps": [
-      "Подсуши хлеб. Слей жидкость из тунца.",
-      "Разомни авокадо вилкой и намажь на тосты.",
-      "Добавь тунец и ломтики помидора."
+      "Яйца отвари вкрутую.",
+      "Намажь хлеб творожным сыром, положи нарезанные яйца и помидор."
     ],
     "tags": [
-      "no-cook"
+      "vegetarian",
+      "easy"
     ],
     "tip": "",
-    "kcal": 400,
-    "protein": 36,
+    "kcal": 390,
+    "protein": 21,
     "photo": 4
   },
   {
@@ -244,7 +244,7 @@ window.RECIPES = [
       {
         "food": "curd",
         "amount": 170,
-        "portion": "около ⅘ пачки 200 г"
+        "portion": "около ⅘ обычной пачки"
       },
       {
         "food": "egg",
@@ -294,7 +294,7 @@ window.RECIPES = [
       {
         "food": "buckwheat",
         "amount": 60,
-        "portion": "около 1 стакана готовой"
+        "portion": "около ⅓ стакана сухой крупы"
       },
       {
         "food": "egg",
@@ -334,7 +334,7 @@ window.RECIPES = [
       {
         "food": "oats",
         "amount": 50,
-        "portion": "½ стакана сухих хлопьев"
+        "portion": "около ½ стакана сухих хлопьев"
       },
       {
         "food": "yogurt",
@@ -369,7 +369,7 @@ window.RECIPES = [
   {
     "id": "breakfast-10",
     "category": "breakfast",
-    "name": "Сэндвич с индейкой",
+    "name": "Бутерброд с индейкой",
     "minutes": 20,
     "ingredients": [
       {
@@ -418,7 +418,7 @@ window.RECIPES = [
       {
         "food": "rice",
         "amount": 60,
-        "portion": "около 1 стакана готового"
+        "portion": "около ⅓ стакана сухой крупы"
       },
       {
         "food": "veg",
@@ -456,7 +456,7 @@ window.RECIPES = [
       {
         "food": "buckwheat",
         "amount": 60,
-        "portion": "около 1 стакана готовой"
+        "portion": "около ⅓ стакана сухой крупы"
       },
       {
         "food": "veg",
@@ -521,7 +521,7 @@ window.RECIPES = [
   {
     "id": "lunch-4",
     "category": "lunch",
-    "name": "Паста с индейкой",
+    "name": "Макароны с индейкой в томате",
     "minutes": 25,
     "ingredients": [
       {
@@ -532,7 +532,7 @@ window.RECIPES = [
       {
         "food": "pasta",
         "amount": 50,
-        "portion": "около 1 стакана готовых коротких макарон"
+        "portion": "около ½ стакана сухих макарон"
       },
       {
         "food": "passata",
@@ -570,7 +570,7 @@ window.RECIPES = [
       {
         "food": "rice",
         "amount": 70,
-        "portion": "около 1¼ стакана готового"
+        "portion": "около ⅓ стакана сухой крупы"
       },
       {
         "food": "veg",
@@ -608,7 +608,7 @@ window.RECIPES = [
       {
         "food": "rice",
         "amount": 60,
-        "portion": "около 1 стакана готового"
+        "portion": "около ⅓ стакана сухой крупы"
       },
       {
         "food": "carrot",
@@ -646,7 +646,7 @@ window.RECIPES = [
       {
         "food": "lentil",
         "amount": 70,
-        "portion": "около ⅓ стакана сухой"
+        "portion": "около ⅓ стакана сухой чечевицы"
       },
       {
         "food": "carrot",
@@ -744,7 +744,7 @@ window.RECIPES = [
       {
         "food": "bulgur",
         "amount": 60,
-        "portion": "около 1 стакана готового"
+        "portion": "около ⅓ стакана сухой крупы"
       },
       {
         "food": "veg",
@@ -771,83 +771,87 @@ window.RECIPES = [
   {
     "id": "lunch-10",
     "category": "lunch",
-    "name": "Паста с тунцом",
-    "minutes": 20,
+    "name": "Макароны по-флотски",
+    "minutes": 25,
     "ingredients": [
       {
-        "food": "tuna",
-        "amount": 150,
-        "portion": "1 большая банка без жидкости"
+        "food": "beef",
+        "amount": 140,
+        "portion": "небольшая ладонь мяса для фарша"
       },
       {
         "food": "pasta",
-        "amount": 65,
-        "portion": "около 1¼ стакана готовых коротких макарон"
+        "amount": 70,
+        "portion": "около ⅔ стакана сухих макарон"
       },
       {
-        "food": "passata",
-        "amount": 150,
-        "portion": "около ⅔ стакана"
-      },
-      {
-        "food": "veg",
-        "amount": 100,
-        "portion": "около 1 кулака"
+        "food": "onion",
+        "amount": 60,
+        "portion": "½–⅔ средней луковицы"
       },
       {
         "food": "oil",
-        "amount": 4,
-        "portion": "неполная ч. л."
+        "amount": 2,
+        "portion": "чуть меньше ½ ч. л."
       }
     ],
     "steps": [
-      "Отвари макароны, слей жидкость из тунца.",
-      "Прогрей томаты с маслом, добавь тунец.",
-      "Смешай с макаронами и подай с овощами."
+      "Поставь вариться макароны. Говядину измельчи в фарш или возьми готовый постный фарш.",
+      "Лук нарежь, готовь с фаршем на указанном масле, добавляя немного воды, до полной готовности мяса.",
+      "Смешай с макаронами."
     ],
-    "tags": [],
+    "tags": [
+      "easy"
+    ],
     "tip": "",
-    "kcal": 498,
-    "protein": 47,
+    "kcal": 497,
+    "protein": 38,
     "photo": 9
   },
   {
     "id": "dinner-1",
     "category": "dinner",
-    "name": "Лосось с картофелем",
+    "name": "Рыба с картофелем в духовке",
     "minutes": 35,
     "ingredients": [
       {
-        "food": "salmon",
-        "amount": 140,
-        "portion": "1 небольшая ладонь готового филе"
+        "food": "pollock",
+        "amount": 220,
+        "portion": "около 1½ ладони готового филе"
       },
       {
         "food": "potato",
-        "amount": 200,
-        "portion": "2 небольших клубня"
+        "amount": 300,
+        "portion": "3 небольших клубня"
       },
       {
         "food": "veg",
         "amount": 200,
         "portion": "около 2 кулаков"
+      },
+      {
+        "food": "oil",
+        "amount": 7,
+        "portion": "около 1½ ч. л."
       }
     ],
     "steps": [
-      "Нарежь картофель дольками и запекай на пергаменте при 190 °C около 15 минут.",
-      "Добавь лосось и овощи для запекания; готовь до готовности рыбы и картофеля.",
-      "Свежие овощи можно подать отдельно. Масло не добавляй."
+      "Нарежь картофель небольшими дольками, смешай с маслом, запекай при 190 °C около 15 минут.",
+      "Добавь размороженный минтай, готовь до готовности рыбы и мягкости картофеля.",
+      "Подай со свежими овощами."
     ],
-    "tags": [],
+    "tags": [
+      "easy"
+    ],
     "tip": "",
-    "kcal": 495,
-    "protein": 34,
+    "kcal": 502,
+    "protein": 43,
     "photo": 0
   },
   {
     "id": "dinner-2",
     "category": "dinner",
-    "name": "Куриная паста",
+    "name": "Макароны с курицей в томате",
     "minutes": 25,
     "ingredients": [
       {
@@ -858,7 +862,7 @@ window.RECIPES = [
       {
         "food": "pasta",
         "amount": 60,
-        "portion": "около 1¼ стакана готовых коротких макарон"
+        "portion": "около ⅔ стакана сухих макарон"
       },
       {
         "food": "passata",
@@ -972,7 +976,7 @@ window.RECIPES = [
       {
         "food": "rice",
         "amount": 45,
-        "portion": "около ¾ стакана готового"
+        "portion": "около ¼ стакана сухой крупы"
       },
       {
         "food": "veg",
@@ -1039,23 +1043,18 @@ window.RECIPES = [
   {
     "id": "dinner-7",
     "category": "dinner",
-    "name": "Лаваш с курицей",
-    "minutes": 25,
+    "name": "Куриные котлеты с картофелем",
+    "minutes": 30,
     "ingredients": [
       {
         "food": "chicken",
-        "amount": 170,
-        "portion": "1 ладонь готового филе"
+        "amount": 180,
+        "portion": "1 ладонь филе / 2 небольшие котлеты"
       },
       {
-        "food": "lavash",
-        "amount": 60,
-        "portion": "1 небольшой тонкий лист"
-      },
-      {
-        "food": "yogurt",
-        "amount": 70,
-        "portion": "около 3 ст. л."
+        "food": "potato",
+        "amount": 250,
+        "portion": "2 средних клубня"
       },
       {
         "food": "veg",
@@ -1064,19 +1063,21 @@ window.RECIPES = [
       },
       {
         "food": "oil",
-        "amount": 5,
-        "portion": "1 ч. л."
+        "amount": 6,
+        "portion": "чуть больше 1 ч. л."
       }
     ],
     "steps": [
-      "Нарежь курицу и приготовь на масле до полной готовности.",
-      "Нарежь овощи, йогурт смешай со специями.",
-      "Заверни в лаваш курицу, овощи и соус. При желании подсуши на сухой сковороде."
+      "Поставь вариться картофель.",
+      "Курицу измельчи, добавь немного воды и специи, сформируй 2 котлеты. Готовь на масле под крышкой до полной готовности, при необходимости добавляя воду.",
+      "Подавай с картофелем и овощами."
     ],
-    "tags": [],
+    "tags": [
+      "easy"
+    ],
     "tip": "",
-    "kcal": 492,
-    "protein": 49,
+    "kcal": 494,
+    "protein": 48,
     "photo": 6
   },
   {
@@ -1136,7 +1137,7 @@ window.RECIPES = [
       {
         "food": "buckwheat",
         "amount": 70,
-        "portion": "около 1¼ стакана готовой"
+        "portion": "около ⅓ стакана сухой крупы"
       },
       {
         "food": "veg",
@@ -1174,7 +1175,7 @@ window.RECIPES = [
       {
         "food": "bulgur",
         "amount": 60,
-        "portion": "около 1 стакана готового"
+        "portion": "около ⅓ стакана сухой крупы"
       },
       {
         "food": "zucchini",
@@ -1236,7 +1237,7 @@ window.RECIPES = [
       {
         "food": "curd",
         "amount": 150,
-        "portion": "¾ пачки 200 г"
+        "portion": "¾ обычной пачки"
       },
       {
         "food": "berries",
@@ -1375,7 +1376,7 @@ window.RECIPES = [
   {
     "id": "snack-7",
     "category": "snack",
-    "name": "Тост с творожным сыром",
+    "name": "Бутерброд с творожным сыром",
     "minutes": 5,
     "ingredients": [
       {
@@ -1450,7 +1451,7 @@ window.RECIPES = [
       {
         "food": "curd",
         "amount": 120,
-        "portion": "чуть больше ½ пачки 200 г"
+        "portion": "чуть больше ½ обычной пачки"
       },
       {
         "food": "peach",
@@ -1508,7 +1509,7 @@ window.RECIPES = [
       {
         "food": "millet",
         "amount": 60,
-        "portion": "около ⅓ стакана сухой крупы"
+        "portion": "около ¼ стакана сухой крупы"
       },
       {
         "food": "milk",
@@ -1542,8 +1543,8 @@ window.RECIPES = [
   {
     "id": "breakfast-12",
     "category": "breakfast",
-    "name": "Шакшука с тостом",
-    "minutes": 20,
+    "name": "Яичница с помидорами",
+    "minutes": 15,
     "ingredients": [
       {
         "food": "egg",
@@ -1567,12 +1568,12 @@ window.RECIPES = [
       }
     ],
     "steps": [
-      "Прогрей томаты со специями и маслом на небольшой сковороде 5 минут.",
-      "Сделай углубления, разбей в них яйца и готовь под крышкой до полного схватывания белков и желтков.",
-      "Подавай с подсушенным хлебом."
+      "Прогрей томаты с маслом в сковороде.",
+      "Добавь яйца и готовь под крышкой до полного схватывания белков и желтков. Подай с хлебом."
     ],
     "tags": [
-      "vegetarian"
+      "vegetarian",
+      "easy"
     ],
     "tip": "",
     "kcal": 402,
@@ -1582,46 +1583,47 @@ window.RECIPES = [
   {
     "id": "breakfast-13",
     "category": "breakfast",
-    "name": "Овсяноблин с творогом",
-    "minutes": 15,
+    "name": "Блины с творогом",
+    "minutes": 20,
     "ingredients": [
       {
-        "food": "oats",
-        "amount": 35,
-        "portion": "около ⅓ стакана сухих хлопьев"
+        "food": "flour",
+        "amount": 50,
+        "portion": "около 5 ст. л. без горки"
       },
       {
         "food": "egg",
-        "amount": 50,
-        "portion": "1 среднее яйцо"
+        "amount": 25,
+        "portion": "½ взбитого яйца"
       },
       {
         "food": "milk",
-        "amount": 50,
-        "portion": "3 ст. л. + 1 ч. л."
+        "amount": 100,
+        "portion": "чуть меньше ½ стакана"
       },
       {
         "food": "curd",
         "amount": 100,
-        "portion": "½ пачки 200 г"
+        "portion": "½ обычной пачки"
       },
       {
-        "food": "berries",
-        "amount": 100,
-        "portion": "около ⅔ стакана"
+        "food": "oil",
+        "amount": 2,
+        "portion": "чуть меньше ½ ч. л."
       }
     ],
     "steps": [
-      "Смешай хлопья, яйцо и молоко. Дай постоять 5 минут.",
-      "Вылей на антипригарную сковороду и приготовь без масла с обеих сторон до полной готовности яйца.",
-      "На половину блина положи творог и ягоды, накрой второй половиной."
+      "Смешай муку, половину взбитого яйца и молоко. Добавь воду до консистенции жидкого теста.",
+      "Смажь антипригарную сковороду указанным маслом и испеки 2 небольших тонких блина.",
+      "Заверни в них творог и прогрей без дополнительного масла."
     ],
     "tags": [
-      "vegetarian"
+      "vegetarian",
+      "easy"
     ],
-    "tip": "",
-    "kcal": 398,
-    "protein": 30,
+    "tip": "Удобнее приготовить сразу 2 порции: тогда понадобится целое яйцо.",
+    "kcal": 397,
+    "protein": 28,
     "photo": 12
   },
   {
@@ -1633,7 +1635,7 @@ window.RECIPES = [
       {
         "food": "rice",
         "amount": 55,
-        "portion": "около 1 стакана готового риса"
+        "portion": "около ¼ стакана сухой крупы"
       },
       {
         "food": "milk",
@@ -1673,7 +1675,7 @@ window.RECIPES = [
       {
         "food": "curd",
         "amount": 150,
-        "portion": "¾ пачки 200 г"
+        "portion": "¾ обычной пачки"
       },
       {
         "food": "egg",
@@ -1723,7 +1725,7 @@ window.RECIPES = [
       {
         "food": "barley",
         "amount": 60,
-        "portion": "около 1 стакана готовой крупы"
+        "portion": "около ⅓ стакана сухой крупы"
       },
       {
         "food": "carrot",
@@ -1766,7 +1768,7 @@ window.RECIPES = [
       {
         "food": "bulgur",
         "amount": 55,
-        "portion": "около 1 стакана готового"
+        "portion": "около ⅓ стакана сухой крупы"
       },
       {
         "food": "passata",
@@ -1900,7 +1902,7 @@ window.RECIPES = [
       {
         "food": "rice",
         "amount": 60,
-        "portion": "около 1 стакана готового"
+        "portion": "около ⅓ стакана сухой крупы"
       },
       {
         "food": "zucchini",
@@ -1938,7 +1940,7 @@ window.RECIPES = [
       {
         "food": "bulgur",
         "amount": 60,
-        "portion": "около 1 стакана готового"
+        "portion": "около ⅓ стакана сухой крупы"
       },
       {
         "food": "veg",
@@ -1965,7 +1967,7 @@ window.RECIPES = [
   {
     "id": "dinner-12",
     "category": "dinner",
-    "name": "Паста с треской",
+    "name": "Макароны с рыбой",
     "minutes": 25,
     "ingredients": [
       {
@@ -1976,7 +1978,7 @@ window.RECIPES = [
       {
         "food": "pasta",
         "amount": 65,
-        "portion": "около 1¼ стакана готовых коротких макарон"
+        "portion": "около ⅔ стакана сухих макарон"
       },
       {
         "food": "passata",
@@ -2003,8 +2005,8 @@ window.RECIPES = [
   {
     "id": "dinner-13",
     "category": "dinner",
-    "name": "Курица с запечённым бататом",
-    "minutes": 40,
+    "name": "Курица с картофелем в духовке",
+    "minutes": 35,
     "ingredients": [
       {
         "food": "chicken",
@@ -2012,9 +2014,9 @@ window.RECIPES = [
         "portion": "1 крупная ладонь готового филе"
       },
       {
-        "food": "sweetpotato",
+        "food": "potato",
         "amount": 250,
-        "portion": "1 средний клубень"
+        "portion": "2 средних клубня"
       },
       {
         "food": "veg",
@@ -2023,18 +2025,20 @@ window.RECIPES = [
       },
       {
         "food": "oil",
-        "amount": 3,
-        "portion": "чуть больше ½ ч. л."
+        "amount": 5,
+        "portion": "1 ч. л."
       }
     ],
     "steps": [
-      "Нарежь батат дольками, курицу — крупными кусочками, смешай со специями и маслом.",
-      "Разложи на пергаменте и запекай при 190 °C до полной готовности птицы и мягкости батата.",
-      "Подай со свежими овощами."
+      "Нарежь картофель небольшими дольками, курицу — кусочками. Смешай с маслом и специями.",
+      "Запекай на пергаменте при 190 °C до полной готовности курицы и мягкости картофеля.",
+      "Подай с овощами."
     ],
-    "tags": [],
+    "tags": [
+      "easy"
+    ],
     "tip": "",
-    "kcal": 500,
+    "kcal": 495,
     "protein": 52,
     "photo": 12
   },
@@ -2052,7 +2056,7 @@ window.RECIPES = [
       {
         "food": "rice",
         "amount": 60,
-        "portion": "около 1 стакана готового"
+        "portion": "около ⅓ стакана сухой крупы"
       },
       {
         "food": "veg",
@@ -2085,7 +2089,7 @@ window.RECIPES = [
       {
         "food": "lentil",
         "amount": 60,
-        "portion": "около ¾ стакана готовой чечевицы"
+        "portion": "около ⅓ стакана сухой чечевицы"
       },
       {
         "food": "egg",
@@ -2199,7 +2203,7 @@ window.RECIPES = [
       {
         "food": "curd",
         "amount": 100,
-        "portion": "½ пачки 200 г"
+        "portion": "½ обычной пачки"
       },
       {
         "food": "tomato",
@@ -2229,7 +2233,7 @@ window.RECIPES = [
       {
         "food": "curd",
         "amount": 140,
-        "portion": "около ⅔ пачки 200 г"
+        "portion": "около ⅔ обычной пачки"
       },
       {
         "food": "strawberry",
@@ -2279,5 +2283,769 @@ window.RECIPES = [
     "kcal": 197,
     "protein": 5,
     "photo": 14
+  },
+  {
+    "id": "breakfast-16",
+    "category": "breakfast",
+    "name": "Омлет с сыром и хлебом",
+    "minutes": 10,
+    "ingredients": [
+      {
+        "food": "egg",
+        "amount": 100,
+        "portion": "2 средних яйца"
+      },
+      {
+        "food": "cheese",
+        "amount": 20,
+        "portion": "1 тонкий ломтик"
+      },
+      {
+        "food": "bread",
+        "amount": 55,
+        "portion": "2 небольших ломтика"
+      },
+      {
+        "food": "veg",
+        "amount": 200,
+        "portion": "помидор и небольшой огурец"
+      }
+    ],
+    "steps": [
+      "Взбей яйца вилкой, добавь натёртый сыр.",
+      "Готовь под крышкой на антипригарной сковороде без масла до полного схватывания. Подай с хлебом и овощами."
+    ],
+    "tags": [
+      "vegetarian",
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 396,
+    "protein": 24,
+    "photo": 15
+  },
+  {
+    "id": "breakfast-17",
+    "category": "breakfast",
+    "name": "Йогурт с хлопьями и бананом",
+    "minutes": 5,
+    "ingredients": [
+      {
+        "food": "yogurt",
+        "amount": 250,
+        "portion": "1 стакан"
+      },
+      {
+        "food": "oats",
+        "amount": 40,
+        "portion": "около ½ стакана сухих хлопьев"
+      },
+      {
+        "food": "banana",
+        "amount": 115,
+        "portion": "1 небольшой или средний"
+      }
+    ],
+    "steps": [
+      "Возьми хлопья, подходящие для употребления без варки по инструкции на упаковке.",
+      "Смешай с йогуртом, добавь нарезанный банан."
+    ],
+    "tags": [
+      "vegetarian",
+      "no-cook",
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 400,
+    "protein": 16,
+    "photo": 16
+  },
+  {
+    "id": "breakfast-18",
+    "category": "breakfast",
+    "name": "Горячие бутерброды с сыром",
+    "minutes": 10,
+    "ingredients": [
+      {
+        "food": "bread",
+        "amount": 80,
+        "portion": "2 крупных ломтика"
+      },
+      {
+        "food": "cheese",
+        "amount": 50,
+        "portion": "3 тонких ломтика"
+      },
+      {
+        "food": "tomato",
+        "amount": 150,
+        "portion": "1 средний"
+      }
+    ],
+    "steps": [
+      "Разложи на хлебе сыр и ломтики помидора.",
+      "Прогрей в духовке при 180 °C или на сухой сковороде под крышкой, пока сыр не расплавится."
+    ],
+    "tags": [
+      "vegetarian",
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 397,
+    "protein": 20,
+    "photo": 17
+  },
+  {
+    "id": "breakfast-19",
+    "category": "breakfast",
+    "name": "Творог с яблоком и хлебом",
+    "minutes": 5,
+    "ingredients": [
+      {
+        "food": "curd",
+        "amount": 150,
+        "portion": "¾ обычной пачки"
+      },
+      {
+        "food": "apple",
+        "amount": 150,
+        "portion": "1 среднее"
+      },
+      {
+        "food": "bread",
+        "amount": 40,
+        "portion": "1 крупный ломтик"
+      },
+      {
+        "food": "walnut",
+        "amount": 7,
+        "portion": "около 2 целых ядер"
+      }
+    ],
+    "steps": [
+      "Нарежь или натри яблоко, смешай с творогом.",
+      "Добавь орехи и подай с хлебом."
+    ],
+    "tags": [
+      "vegetarian",
+      "no-cook",
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 401,
+    "protein": 30,
+    "photo": 18
+  },
+  {
+    "id": "breakfast-20",
+    "category": "breakfast",
+    "name": "Гречневая каша с молоком",
+    "minutes": 20,
+    "ingredients": [
+      {
+        "food": "buckwheat",
+        "amount": 45,
+        "portion": "около ¼ стакана сухой крупы"
+      },
+      {
+        "food": "milk",
+        "amount": 200,
+        "portion": "неполный стакан"
+      },
+      {
+        "food": "banana",
+        "amount": 120,
+        "portion": "1 средний"
+      },
+      {
+        "food": "walnut",
+        "amount": 5,
+        "portion": "1–2 целых ядра"
+      }
+    ],
+    "steps": [
+      "Отвари гречку в воде по инструкции.",
+      "Добавь молоко, прогрей и подай с бананом и орехами."
+    ],
+    "tags": [
+      "vegetarian",
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 398,
+    "protein": 14,
+    "photo": 19
+  },
+  {
+    "id": "lunch-16",
+    "category": "lunch",
+    "name": "Курица с макаронами",
+    "minutes": 20,
+    "ingredients": [
+      {
+        "food": "chicken",
+        "amount": 180,
+        "portion": "1 ладонь готового филе"
+      },
+      {
+        "food": "pasta",
+        "amount": 60,
+        "portion": "около ⅔ стакана сухих макарон"
+      },
+      {
+        "food": "veg",
+        "amount": 200,
+        "portion": "около 2 кулаков"
+      },
+      {
+        "food": "oil",
+        "amount": 5,
+        "portion": "1 ч. л."
+      }
+    ],
+    "steps": [
+      "Отвари макароны.",
+      "Пока они варятся, нарежь курицу тонкими полосками и готовь на масле до полной готовности, при необходимости добавляя воду. Подай с овощами."
+    ],
+    "tags": [
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 503,
+    "protein": 51,
+    "photo": 15
+  },
+  {
+    "id": "lunch-17",
+    "category": "lunch",
+    "name": "Макароны с индейкой и овощами",
+    "minutes": 20,
+    "ingredients": [
+      {
+        "food": "turkey",
+        "amount": 180,
+        "portion": "1 ладонь готового филе"
+      },
+      {
+        "food": "pasta",
+        "amount": 60,
+        "portion": "около ⅔ стакана сухих макарон"
+      },
+      {
+        "food": "veg",
+        "amount": 200,
+        "portion": "около 2 кулаков"
+      },
+      {
+        "food": "oil",
+        "amount": 4,
+        "portion": "неполная ч. л."
+      }
+    ],
+    "steps": [
+      "Поставь вариться макароны.",
+      "Индейку нарежь небольшими кусочками, готовь на масле с овощами и небольшим количеством воды до полной готовности. Смешай с макаронами."
+    ],
+    "tags": [
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 503,
+    "protein": 52,
+    "photo": 16
+  },
+  {
+    "id": "lunch-18",
+    "category": "lunch",
+    "name": "Рис с тунцом и овощами",
+    "minutes": 20,
+    "ingredients": [
+      {
+        "food": "rice",
+        "amount": 70,
+        "portion": "около ⅓ стакана сухой крупы"
+      },
+      {
+        "food": "tuna",
+        "amount": 150,
+        "portion": "1 большая банка без жидкости"
+      },
+      {
+        "food": "veg",
+        "amount": 200,
+        "portion": "около 2 кулаков"
+      },
+      {
+        "food": "oil",
+        "amount": 4,
+        "portion": "неполная ч. л."
+      }
+    ],
+    "steps": [
+      "Отвари рис по инструкции. Слей жидкость из тунца.",
+      "Смешай рис с тунцом и маслом. Подай со свежими овощами."
+    ],
+    "tags": [
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 503,
+    "protein": 43,
+    "photo": 17
+  },
+  {
+    "id": "lunch-19",
+    "category": "lunch",
+    "name": "Картофель с яйцами и салатом",
+    "minutes": 25,
+    "ingredients": [
+      {
+        "food": "potato",
+        "amount": 300,
+        "portion": "3 небольших клубня"
+      },
+      {
+        "food": "egg",
+        "amount": 150,
+        "portion": "3 средних яйца"
+      },
+      {
+        "food": "veg",
+        "amount": 150,
+        "portion": "небольшая миска"
+      },
+      {
+        "food": "oil",
+        "amount": 2,
+        "portion": "чуть меньше ½ ч. л."
+      }
+    ],
+    "steps": [
+      "Отвари картофель, яйца свари вкрутую.",
+      "Нарежь овощи и заправь маслом. Подавай с картофелем и яйцами."
+    ],
+    "tags": [
+      "vegetarian",
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 502,
+    "protein": 26,
+    "photo": 18
+  },
+  {
+    "id": "lunch-20",
+    "category": "lunch",
+    "name": "Курица с фасолью на сковороде",
+    "minutes": 20,
+    "ingredients": [
+      {
+        "food": "chicken",
+        "amount": 200,
+        "portion": "1 крупная ладонь готового филе"
+      },
+      {
+        "food": "beans",
+        "amount": 200,
+        "portion": "около 1 стакана без жидкости"
+      },
+      {
+        "food": "passata",
+        "amount": 150,
+        "portion": "около ⅔ стакана"
+      },
+      {
+        "food": "veg",
+        "amount": 100,
+        "portion": "около 1 кулака"
+      },
+      {
+        "food": "oil",
+        "amount": 2,
+        "portion": "чуть меньше ½ ч. л."
+      }
+    ],
+    "steps": [
+      "Нарежь курицу небольшими кусочками, готовь на масле с небольшим количеством воды до полной готовности.",
+      "Промой фасоль, добавь к курице с томатами и прогрей 5 минут. Подавай с овощами."
+    ],
+    "tags": [
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 508,
+    "protein": 61,
+    "photo": 19
+  },
+  {
+    "id": "dinner-16",
+    "category": "dinner",
+    "name": "Минтай с рисом",
+    "minutes": 25,
+    "ingredients": [
+      {
+        "food": "pollock",
+        "amount": 220,
+        "portion": "около 1½ ладони готового филе"
+      },
+      {
+        "food": "rice",
+        "amount": 70,
+        "portion": "около ⅓ стакана сухой крупы"
+      },
+      {
+        "food": "veg",
+        "amount": 200,
+        "portion": "около 2 кулаков"
+      },
+      {
+        "food": "oil",
+        "amount": 4,
+        "portion": "неполная ч. л."
+      }
+    ],
+    "steps": [
+      "Поставь вариться рис.",
+      "Размороженный минтай нарежь, положи в сковороду с маслом и небольшим количеством воды. Туши под крышкой до готовности. Подай с рисом и овощами."
+    ],
+    "tags": [
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 496,
+    "protein": 42,
+    "photo": 15
+  },
+  {
+    "id": "dinner-17",
+    "category": "dinner",
+    "name": "Индейка с гречкой на ужин",
+    "minutes": 25,
+    "ingredients": [
+      {
+        "food": "turkey",
+        "amount": 180,
+        "portion": "1 ладонь готового филе"
+      },
+      {
+        "food": "buckwheat",
+        "amount": 60,
+        "portion": "около ⅓ стакана сухой крупы"
+      },
+      {
+        "food": "veg",
+        "amount": 200,
+        "portion": "около 2 кулаков"
+      },
+      {
+        "food": "oil",
+        "amount": 4,
+        "portion": "неполная ч. л."
+      }
+    ],
+    "steps": [
+      "Отвари гречку по инструкции.",
+      "Нарежь индейку, готовь на масле, добавляя немного воды, до полной готовности. Подай с гречкой и овощами."
+    ],
+    "tags": [
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 499,
+    "protein": 53,
+    "photo": 16
+  },
+  {
+    "id": "dinner-18",
+    "category": "dinner",
+    "name": "Тушёная рыба с рисом",
+    "minutes": 25,
+    "ingredients": [
+      {
+        "food": "cod",
+        "amount": 220,
+        "portion": "около 1½ ладони готового филе"
+      },
+      {
+        "food": "rice",
+        "amount": 65,
+        "portion": "около ⅓ стакана сухой крупы"
+      },
+      {
+        "food": "tomato",
+        "amount": 200,
+        "portion": "2 небольших"
+      },
+      {
+        "food": "oil",
+        "amount": 5,
+        "portion": "1 ч. л."
+      }
+    ],
+    "steps": [
+      "Поставь вариться рис.",
+      "Помидоры нарежь и прогрей на масле с небольшим количеством воды. Добавь кусочки размороженной рыбы.",
+      "Туши под крышкой до готовности рыбы. Подай с рисом."
+    ],
+    "tags": [
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 499,
+    "protein": 46,
+    "photo": 17
+  },
+  {
+    "id": "dinner-19",
+    "category": "dinner",
+    "name": "Яйца с фасолью и хлебом",
+    "minutes": 15,
+    "ingredients": [
+      {
+        "food": "egg",
+        "amount": 150,
+        "portion": "3 средних яйца"
+      },
+      {
+        "food": "beans",
+        "amount": 150,
+        "portion": "около ¾ стакана без жидкости"
+      },
+      {
+        "food": "passata",
+        "amount": 150,
+        "portion": "около ⅔ стакана"
+      },
+      {
+        "food": "bread",
+        "amount": 25,
+        "portion": "1 тонкий ломтик"
+      },
+      {
+        "food": "oil",
+        "amount": 3,
+        "portion": "чуть больше ½ ч. л."
+      }
+    ],
+    "steps": [
+      "Промой фасоль и прогрей на сковороде с томатами и маслом.",
+      "Добавь яйца, накрой крышкой и готовь на небольшом огне до полного схватывания белков и желтков. Подай с хлебом."
+    ],
+    "tags": [
+      "vegetarian",
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 498,
+    "protein": 32,
+    "photo": 18
+  },
+  {
+    "id": "dinner-20",
+    "category": "dinner",
+    "name": "Макароны с курицей и кабачком",
+    "minutes": 20,
+    "ingredients": [
+      {
+        "food": "chicken",
+        "amount": 180,
+        "portion": "1 ладонь готового филе"
+      },
+      {
+        "food": "pasta",
+        "amount": 55,
+        "portion": "около ½ стакана сухих макарон"
+      },
+      {
+        "food": "zucchini",
+        "amount": 250,
+        "portion": "1 небольшой кабачок"
+      },
+      {
+        "food": "oil",
+        "amount": 5,
+        "portion": "1 ч. л."
+      }
+    ],
+    "steps": [
+      "Поставь вариться макароны.",
+      "Нарежь курицу и кабачок, готовь на масле, при необходимости добавляя воду, до полной готовности птицы.",
+      "Смешай с макаронами."
+    ],
+    "tags": [
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 496,
+    "protein": 50,
+    "photo": 19
+  },
+  {
+    "id": "snack-16",
+    "category": "snack",
+    "name": "Йогурт с яблоком и миндалём",
+    "minutes": 3,
+    "ingredients": [
+      {
+        "food": "yogurt",
+        "amount": 200,
+        "portion": "неполный стакан"
+      },
+      {
+        "food": "apple",
+        "amount": 100,
+        "portion": "1 небольшое или ⅔ среднего"
+      },
+      {
+        "food": "almond",
+        "amount": 5,
+        "portion": "около 4 штук"
+      }
+    ],
+    "steps": [
+      "Нарежь яблоко и добавь в йогурт.",
+      "Посыпь измельчённым миндалём."
+    ],
+    "tags": [
+      "vegetarian",
+      "no-cook",
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 201,
+    "protein": 9,
+    "photo": 15
+  },
+  {
+    "id": "snack-17",
+    "category": "snack",
+    "name": "Кефир с бананом",
+    "minutes": 3,
+    "ingredients": [
+      {
+        "food": "kefir",
+        "amount": 250,
+        "portion": "1 стакан"
+      },
+      {
+        "food": "banana",
+        "amount": 85,
+        "portion": "1 очень маленький"
+      }
+    ],
+    "steps": [
+      "Подай кефир с бананом или взбей их блендером без сахара."
+    ],
+    "tags": [
+      "vegetarian",
+      "no-cook",
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 201,
+    "protein": 8,
+    "photo": 16
+  },
+  {
+    "id": "snack-18",
+    "category": "snack",
+    "name": "Творог с апельсином",
+    "minutes": 3,
+    "ingredients": [
+      {
+        "food": "curd",
+        "amount": 120,
+        "portion": "чуть больше ½ обычной пачки"
+      },
+      {
+        "food": "orange",
+        "amount": 120,
+        "portion": "1 небольшой апельсин"
+      }
+    ],
+    "steps": [
+      "Очисти апельсин и нарежь мякоть.",
+      "Добавь к творогу."
+    ],
+    "tags": [
+      "vegetarian",
+      "no-cook",
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 202,
+    "protein": 21,
+    "photo": 17
+  },
+  {
+    "id": "snack-19",
+    "category": "snack",
+    "name": "Хлебцы с сыром и помидором",
+    "minutes": 3,
+    "ingredients": [
+      {
+        "food": "crispbread",
+        "amount": 20,
+        "portion": "2–3 хлебца, смотри упаковку"
+      },
+      {
+        "food": "cheese",
+        "amount": 30,
+        "portion": "2 тонких ломтика"
+      },
+      {
+        "food": "tomato",
+        "amount": 125,
+        "portion": "1 средний"
+      }
+    ],
+    "steps": [
+      "Положи сыр на хлебцы, подай с помидором."
+    ],
+    "tags": [
+      "vegetarian",
+      "no-cook",
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 200,
+    "protein": 11,
+    "photo": 18
+  },
+  {
+    "id": "snack-20",
+    "category": "snack",
+    "name": "Йогурт с курагой и хлопьями",
+    "minutes": 5,
+    "ingredients": [
+      {
+        "food": "yogurt",
+        "amount": 180,
+        "portion": "около ¾ стакана"
+      },
+      {
+        "food": "apricot",
+        "amount": 23,
+        "portion": "3–4 небольших штуки"
+      },
+      {
+        "food": "oats",
+        "amount": 10,
+        "portion": "около ⅛ стакана сухих хлопьев"
+      }
+    ],
+    "steps": [
+      "Возьми хлопья, подходящие для употребления без варки по инструкции на упаковке.",
+      "Промой и мелко нарежь курагу. Смешай с йогуртом и хлопьями."
+    ],
+    "tags": [
+      "vegetarian",
+      "no-cook",
+      "easy"
+    ],
+    "tip": "",
+    "kcal": 200,
+    "protein": 9,
+    "photo": 19
   }
 ];
