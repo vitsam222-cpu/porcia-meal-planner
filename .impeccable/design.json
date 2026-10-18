@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-18T17:11:01.360875+00:00",
+  "title": "Design System: Порция",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "caption",
+        "value": "0 5px 20px #173f3510",
+        "purpose": "Hero photo caption"
+      },
+      {
+        "name": "segmented-selection",
+        "value": "0 2px 4px #173f3510",
+        "purpose": "Selected shopping period"
+      },
+      {
+        "name": "dialog",
+        "value": "0 15px 80px #102d2529",
+        "purpose": "Modal dialog"
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Card, progress and toast transitions"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1100px"
+      },
+      {
+        "name": "stack-max",
+        "value": "800px"
+      },
+      {
+        "name": "servings-wrap-max",
+        "value": "600px"
+      },
+      {
+        "name": "phone-max",
+        "value": "470px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "description": "Extracted from the shipped stylesheet.",
+      "html": "<button class=\"ds-button ds-primary ds-preview\">Продукты на этот день</button>",
+      "css": ".ds-button{border-radius:8px;border:0;padding:12px 15px;min-height:46px;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-size:12px;text-decoration:none}.ds-button svg{width:17px;height:17px}.ds-primary{background:var(--ink,#173f35);color:white}.ds-primary:hover{background:#245e4e}.ds-secondary{background:transparent;border:1px solid #a3b6a1;color:var(--ink,#173f35)}.ds-secondary:hover{background:#e0e9dc}.ds-preview:focus-visible,.ds-preview button:focus-visible{outline:3px solid var(--accent,#a04b2d);outline-offset:4px} .ds-preview{font-family:Manrope,Arial,sans-serif;color:var(--ink,#173f35)}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "description": "Extracted from the shipped stylesheet.",
+      "html": "<button class=\"ds-button ds-secondary ds-preview\">Собрать день за меня</button>",
+      "css": ".ds-button{border-radius:8px;border:0;padding:12px 15px;min-height:46px;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-size:12px;text-decoration:none}.ds-button svg{width:17px;height:17px}.ds-primary{background:var(--ink,#173f35);color:white}.ds-primary:hover{background:#245e4e}.ds-secondary{background:transparent;border:1px solid #a3b6a1;color:var(--ink,#173f35)}.ds-secondary:hover{background:#e0e9dc}.ds-preview:focus-visible,.ds-preview button:focus-visible{outline:3px solid var(--accent,#a04b2d);outline-offset:4px} .ds-preview{font-family:Manrope,Arial,sans-serif;color:var(--ink,#173f35)}",
+      "refersTo": "button-secondary"
+    },
+    {
+      "name": "Search",
+      "kind": "input",
+      "description": "Extracted from the shipped stylesheet.",
+      "html": "<label class=\"ds-search ds-preview\"><input placeholder=\"Блюдо или продукт\" aria-label=\"Поиск\"></label>",
+      "css": ".ds-search{display:flex;gap:10px;align-items:center;min-width:0;flex:1;background:white;border:1px solid var(--line,#dce3dc);border-radius:9px;padding:0 12px}.ds-search input{border:0;width:100%;min-width:0;height:44px;background:transparent}.ds-search:focus-within{outline:2px solid var(--ink,#173f35);outline-offset:2px}.ds-search input:focus-visible{outline:none}.ds-preview:focus-visible,.ds-preview button:focus-visible{outline:3px solid var(--accent,#a04b2d);outline-offset:4px} .ds-preview{font-family:Manrope,Arial,sans-serif;color:var(--ink,#173f35)}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Extracted from the shipped stylesheet.",
+      "html": "<nav class=\"ds-preview\"><button class=\"ds-nav-button ds-active\">Блюда</button><button class=\"ds-nav-button\">Моя неделя</button></nav>",
+      "css": ".ds-nav-button{border:0;background:none;padding:12px 16px;min-height:44px;display:flex;gap:8px;align-items:center;border-radius:8px;color:var(--muted,#56665e)}.ds-nav-button:hover{background:var(--pale,#edf2eb);color:var(--ink,#173f35)}.ds-nav-button.ds-active{background:var(--pale,#edf2eb);color:var(--ink,#173f35);font-weight:bold}.ds-preview:focus-visible,.ds-preview button:focus-visible{outline:3px solid var(--accent,#a04b2d);outline-offset:4px} .ds-preview{font-family:Manrope,Arial,sans-serif;color:var(--ink,#173f35)}"
+    },
+    {
+      "name": "Filter",
+      "kind": "chip",
+      "description": "Wrapping recipe filters include the 80 new family recipes, using the shared forest selected state.",
+      "html": "<div class=\"ds-preview\"><button class=\"ds-filter\" aria-pressed=\"true\">Все блюда</button><button class=\"ds-filter\" aria-pressed=\"false\">Семейные</button></div>",
+      "css": ".ds-filter{border:1px solid var(--line,#dce3dc);border-radius:24px;min-height:38px;padding:6px 12px;background:transparent;font-size:11px;display:flex;align-items:center;gap:6px;color:var(--muted,#56665e)}.ds-filter[aria-pressed=true]{background:var(--ink,#173f35);border-color:var(--ink,#173f35);color:white}.ds-filter:hover{border-color:var(--ink,#173f35)}.ds-preview:focus-visible,.ds-preview button:focus-visible{outline:3px solid var(--accent,#a04b2d);outline-offset:4px} .ds-preview{font-family:Manrope,Arial,sans-serif;color:var(--ink,#173f35)}"
+    },
+    {
+      "name": "Recipe card",
+      "kind": "card",
+      "description": "Photographic cards for 320 household-measure recipes; every cup quantity explicitly states the 250 ml standard. Pantry matches add a divided availability summary when enabled.",
+      "html": "<article class=\"ds-recipe-card ds-preview\"><div class=\"ds-card-body\"><h3 class=\"ds-card-title\">Овсянка с фруктами</h3><p class=\"ds-ingredients-summary\">Овсяные хлопья, молоко, фрукты</p><div class=\"ds-card-actions\"><button class=\"ds-recipe-link\">Как приготовить</button><button class=\"ds-add-button\" aria-pressed=\"true\">В меню</button></div></div></article>",
+      "css": ".ds-recipe-card{background:var(--white,#fff);border:1px solid var(--line,#dce3dc);border-radius:var(--radius,14px);overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-recipe-card:hover{border-color:#7c9986}.ds-card-body{padding:17px 18px 14px;display:flex;flex:1;flex-direction:column}.ds-card-title{font-family:Lora,Georgia,serif;font-size:21px;letter-spacing:-.02em;line-height:1.25;margin:0 0 10px}.ds-ingredients-summary{font-size:11px;color:var(--muted,#56665e);line-height:1.7;margin:0 0 16px;flex:1}.ds-card-actions{display:flex;gap:8px;align-items:center;border-top:1px solid var(--line,#dce3dc);padding-top:12px}.ds-recipe-link{border:0;background:transparent;font-size:11px;padding:7px 0;text-decoration:underline;text-underline-offset:4px;white-space:nowrap}.ds-add-button{border:0;background:var(--pale,#edf2eb);color:var(--ink,#173f35);border-radius:7px;padding:9px 11px;margin-left:auto;display:flex;align-items:center;justify-content:center;gap:5px;min-height:39px;font-size:11px;white-space:nowrap}.ds-add-button[aria-pressed=true]{background:var(--ink,#173f35);color:white}.ds-preview:focus-visible,.ds-preview button:focus-visible{outline:3px solid var(--accent,#a04b2d);outline-offset:4px} .ds-preview{font-family:Manrope,Arial,sans-serif;color:var(--ink,#173f35)}",
+      "refersTo": "recipe-card"
+    },
+    {
+      "name": "Preparation selector",
+      "kind": "input",
+      "description": "One method selection combines with the other recipe filters.",
+      "html": "<label class=\"ds-method-label\" for=\"ds-method\">Как готовим</label> <select class=\"ds-method\" id=\"ds-method\"><option>Любым способом</option><option>Одна сковорода</option><option>Без духовки</option><option>Без готовки</option><option>Минимум посуды</option></select>",
+      "css": ".ds-method-label{font:700 13px Manrope,Arial,sans-serif;color:var(--ink,#173f35)}.ds-method{max-width:100%;min-height:42px;border:1px solid var(--line,#dce3dc);border-radius:8px;background:var(--white,#fff);color:var(--ink,#173f35);padding:8px 32px 8px 12px;font:14px Manrope,Arial,sans-serif}.ds-method:focus-visible,.ds-pantry summary:focus-visible,.ds-pantry input:focus-visible,.ds-option input:focus-visible{outline:3px solid var(--accent,#a04b2d);outline-offset:4px}"
+    },
+    {
+      "name": "Pantry disclosure",
+      "kind": "custom",
+      "description": "Flat disclosure with a selection summary and searchable grouped ingredients.",
+      "html": "<details class=\"ds-pantry\"><summary><span>Что есть дома</span><small>Отметь продукты — подберём блюда</small></summary><p>Выбери продукты, которые уже есть.</p></details>",
+      "css": ".ds-pantry{font:14px/1.6 Manrope,Arial,sans-serif;color:var(--ink,#173f35);border-top:1px solid var(--line,#dce3dc);border-bottom:1px solid var(--line,#dce3dc);margin-bottom:20px}.ds-pantry summary{cursor:pointer;padding:16px 2px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;list-style:none}.ds-pantry summary::-webkit-details-marker{display:none}.ds-pantry summary:before{content:\"\";width:9px;height:9px;flex:none;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);margin:0 5px 4px 1px}.ds-pantry[open] summary:before{transform:rotate(225deg);margin-top:6px}.ds-pantry summary>span{font-size:17px;font-weight:700}.ds-pantry summary small{font-size:12px;color:var(--muted,#56665e)}.ds-pantry p{color:var(--muted,#56665e)}.ds-method:focus-visible,.ds-pantry summary:focus-visible,.ds-pantry input:focus-visible,.ds-option input:focus-visible{outline:3px solid var(--accent,#a04b2d);outline-offset:4px}"
+    },
+    {
+      "name": "Ingredient checkbox",
+      "kind": "input",
+      "description": "Shared by pantry ingredient selection and optional product exclusions.",
+      "html": "<label class=\"ds-option\"><input type=\"checkbox\" checked><span>Яйца</span></label>",
+      "css": ".ds-option{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line,#dce3dc);border-radius:8px;padding:9px 10px;cursor:pointer;font:12px Manrope,Arial,sans-serif;color:var(--ink,#173f35);max-width:100%;min-height:40px}.ds-option:has(input:checked){background:var(--pale,#edf2eb);border-color:var(--ink,#173f35)}.ds-option input{accent-color:var(--ink,#173f35);width:17px;height:17px;flex-shrink:0}.ds-method:focus-visible,.ds-pantry summary:focus-visible,.ds-pantry input:focus-visible,.ds-option input:focus-visible{outline:3px solid var(--accent,#a04b2d);outline-offset:4px}"
+    },
+    {
+      "name": "Adult energy selector",
+      "kind": "input",
+      "description": "Adult portions switch between 1600 and 1300 kcal; ingredient measures, nutrition, shopping and print follow the selected adult scale.",
+      "html": "<div class=\"ds-energy\"><div><label for=\"ds-energy-target\">Взрослый план на день</label><p>Меняется размер порций, а выбранные блюда остаются.</p></div><select id=\"ds-energy-target\"><option>≈1600 ккал</option><option>≈1300 ккал</option></select></div>",
+      "css": ".ds-energy{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0 6px;border-top:1px solid var(--line,#dce3dc);font:14px/1.6 Manrope,Arial,sans-serif;color:var(--ink,#173f35)}.ds-energy label{font-size:14px;font-weight:700}.ds-energy p{font-size:12px;color:var(--muted,#56665e);margin:4px 0}.ds-energy select{font:inherit;color:var(--ink,#173f35);background:var(--white,#fff);border:1px solid var(--line,#dce3dc);border-radius:8px;padding:10px 12px;min-height:44px;flex-shrink:0}.ds-energy select:focus-visible{outline:3px solid var(--accent,#a04b2d);outline-offset:4px}@media(max-width:470px){.ds-energy{gap:12px;align-items:flex-start}.ds-energy label{font-size:13px}.ds-energy p{font-size:11px}.ds-energy select{font-size:13px;padding:9px}}"
+    }
+  ],
+  "narrative": {
+    "overview": "The shipped operating surface extends the approved PDF menu's green, ivory and terracotta editorial look. Serif headings and individually generated food photographs give the recipe library its character; compact sans-serif controls support choosing meals and checking a day or week.",
+    "keyCharacteristics": [
+      "Warm paper canvas, forest green text and pale green planning surfaces.",
+      "Photographic recipe cards with restrained borders.",
+      "Visible selected states across filters, days and meal actions.",
+      "Adult energy and family batch controls extend the same native-select and pale-panel language."
+    ],
+    "rules": [],
+    "dos": [
+      "Do reuse the forest/paper/pale grouping and local serif/sans pairing.",
+      "Do preserve photo disclosures, explicit selection labels and visible keyboard focus.",
+      "Do preserve the daily plan above the catalog on small screens."
+    ],
+    "donts": [
+      "Don't add large decorative shadows or card hover movement to this mostly flat system.",
+      "Don't treat generated photos as evidence of actual prepared serving size."
+    ]
+  }
+}
