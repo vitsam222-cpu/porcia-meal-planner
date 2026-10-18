@@ -1,4 +1,4 @@
-window.FOODS = {"oats": {"name": "Овсяные хлопья", "kcal": 370, "protein": 13, "group": "Крупы и хлеб", "unit": "г"}, "milk": {"name": "Молоко 2,5%", "kcal": 52, "protein": 2.8, "group": "Молочные продукты", "unit": "мл"}, "banana": {"name": "Банан", "kcal": 89, "protein": 1.1, "group": "Фрукты и орехи", "unit": "г"}, "peanut": {"name": "Арахисовая паста", "kcal": 600, "protein": 25, "group": "Фрукты и орехи", "unit": "г"}, "egg": {"name": "Яйца", "kcal": 144, "protein": 12.6, "group": "Мясо, рыба и яйца", "unit": "г"}, "bread": {"name": "Цельнозерновой хлеб", "kcal": 240, "protein": 8, "group": "Крупы и хлеб", "unit": "г"}, "cheese": {"name": "Твёрдый сыр", "kcal": 350, "protein": 25, "group": "Молочные продукты", "unit": "г"}, "veg": {"name": "Овощи для салата или гарнира", "kcal": 25, "protein": 1, "group": "Овощи и зелень", "unit": "г"}, "curd": {"name": "Творог 5%", "kcal": 121, "protein": 17, "group": "Молочные продукты", "unit": "г"}, "walnut": {"name": "Грецкие орехи", "kcal": 650, "protein": 15, "group": "Фрукты и орехи", "unit": "г"}, "yogurt": {"name": "Натуральный йогурт", "kcal": 60, "protein": 4, "group": "Молочные продукты", "unit": "г"}, "berries": {"name": "Ягоды", "kcal": 50, "protein": 1, "group": "Фрукты и орехи", "unit": "г"}, "tuna": {"name": "Тунец в собственном соку, без жидкости", "kcal": 110, "protein": 24, "group": "Мясо, рыба и яйца", "unit": "г"}, "avocado": {"name": "Авокадо", "kcal": 160, "protein": 2, "group": "Фрукты и орехи", "unit": "г"}, "tomato": {"name": "Свежие помидоры", "kcal": 20, "protein": 1, "group": "Овощи и зелень", "unit": "г"}, "chicken": {"name": "Куриная грудка", "kcal": 110, "protein": 23, "group": "Мясо, рыба и яйца", "unit": "г"}, "rice": {"name": "Рис сухой", "kcal": 360, "protein": 7, "group": "Крупы и хлеб", "unit": "г"}, "oil": {"name": "Растительное масло", "kcal": 900, "protein": 0, "group": "Масло и прочее", "unit": "г"}, "turkey": {"name": "Филе индейки", "kcal": 115, "protein": 24, "group": "Мясо, рыба и яйца", "unit": "г"}, "buckwheat": {"name": "Гречка сухая", "kcal": 343, "protein": 13, "group": "Крупы и хлеб", "unit": "г"}, "beef": {"name": "Постная говядина", "kcal": 150, "protein": 21, "group": "Мясо, рыба и яйца", "unit": "г"}, "potato": {"name": "Картофель", "kcal": 77, "protein": 2, "group": "Овощи и зелень", "unit": "г"}, "pasta": {"name": "Макароны сухие", "kcal": 350, "protein": 12, "group": "Крупы и хлеб", "unit": "г"}, "passata": {"name": "Протёртые томаты без сахара", "kcal": 30, "protein": 1.5, "group": "Овощи и зелень", "unit": "г"}, "cod": {"name": "Филе трески", "kcal": 82, "protein": 18, "group": "Мясо, рыба и яйца", "unit": "г"}, "salmon": {"name": "Лосось", "kcal": 208, "protein": 20, "group": "Мясо, рыба и яйца", "unit": "г"}, "kefir": {"name": "Кефир 2,5%", "kcal": 50, "protein": 3, "group": "Молочные продукты", "unit": "мл"}, "orange": {"name": "Апельсин, мякоть", "kcal": 47, "protein": 0.9, "group": "Фрукты и орехи", "unit": "г"}, "almond": {"name": "Миндаль", "kcal": 580, "protein": 21, "group": "Фрукты и орехи", "unit": "г"}, "kiwi": {"name": "Киви, мякоть", "kcal": 61, "protein": 1.1, "group": "Фрукты и орехи", "unit": "г"}, "apple": {"name": "Яблоко", "kcal": 52, "protein": 0.3, "group": "Фрукты и орехи", "unit": "г"}, "lavash": {"name": "Тонкий лаваш", "kcal": 280, "protein": 8, "group": "Крупы и хлеб", "unit": "г"}, "flour": {"name": "Мука", "kcal": 340, "protein": 10, "group": "Крупы и хлеб", "unit": "г"}, "lentil": {"name": "Красная чечевица сухая", "kcal": 350, "protein": 24, "group": "Крупы и хлеб", "unit": "г"}, "carrot": {"name": "Морковь", "kcal": 35, "protein": 1, "group": "Овощи и зелень", "unit": "г"}, "onion": {"name": "Лук", "kcal": 40, "protein": 1, "group": "Овощи и зелень", "unit": "г"}, "bulgur": {"name": "Булгур сухой", "kcal": 342, "protein": 12, "group": "Крупы и хлеб", "unit": "г"}, "beans": {"name": "Фасоль консервированная, без жидкости", "kcal": 100, "protein": 6, "group": "Овощи и зелень", "unit": "г"}, "pollock": {"name": "Филе минтая", "kcal": 72, "protein": 16, "group": "Мясо, рыба и яйца", "unit": "г"}, "zucchini": {"name": "Кабачок", "kcal": 24, "protein": 1, "group": "Овощи и зелень", "unit": "г"}, "creamcheese": {"name": "Творожный сыр", "kcal": 240, "protein": 6, "group": "Молочные продукты", "unit": "г"}, "peach": {"name": "Персик, мякоть", "kcal": 39, "protein": 0.9, "group": "Фрукты и орехи", "unit": "г"}};
+window.FOODS = {"oats": {"name": "Овсяные хлопья", "kcal": 370, "protein": 13, "group": "Крупы и хлеб", "unit": "г"}, "milk": {"name": "Молоко 2,5%", "kcal": 52, "protein": 2.8, "group": "Молочные продукты", "unit": "мл"}, "banana": {"name": "Банан", "kcal": 89, "protein": 1.1, "group": "Фрукты и орехи", "unit": "г"}, "peanut": {"name": "Арахисовая паста", "kcal": 600, "protein": 25, "group": "Фрукты и орехи", "unit": "г"}, "egg": {"name": "Яйца", "kcal": 144, "protein": 12.6, "group": "Мясо, рыба и яйца", "unit": "г"}, "bread": {"name": "Цельнозерновой хлеб", "kcal": 240, "protein": 8, "group": "Крупы и хлеб", "unit": "г"}, "cheese": {"name": "Твёрдый сыр", "kcal": 350, "protein": 25, "group": "Молочные продукты", "unit": "г"}, "veg": {"name": "Овощи для салата или гарнира", "kcal": 25, "protein": 1, "group": "Овощи и зелень", "unit": "г"}, "curd": {"name": "Творог 5%", "kcal": 121, "protein": 17, "group": "Молочные продукты", "unit": "г"}, "walnut": {"name": "Грецкие орехи", "kcal": 650, "protein": 15, "group": "Фрукты и орехи", "unit": "г"}, "yogurt": {"name": "Натуральный йогурт", "kcal": 60, "protein": 4, "group": "Молочные продукты", "unit": "г"}, "berries": {"name": "Ягоды", "kcal": 50, "protein": 1, "group": "Фрукты и орехи", "unit": "г"}, "tuna": {"name": "Тунец в собственном соку, без жидкости", "kcal": 110, "protein": 24, "group": "Мясо, рыба и яйца", "unit": "г"}, "avocado": {"name": "Авокадо", "kcal": 160, "protein": 2, "group": "Фрукты и орехи", "unit": "г"}, "tomato": {"name": "Свежие помидоры", "kcal": 20, "protein": 1, "group": "Овощи и зелень", "unit": "г"}, "chicken": {"name": "Куриная грудка", "kcal": 110, "protein": 23, "group": "Мясо, рыба и яйца", "unit": "г"}, "rice": {"name": "Рис сухой", "kcal": 360, "protein": 7, "group": "Крупы и хлеб", "unit": "г"}, "oil": {"name": "Растительное масло", "kcal": 900, "protein": 0, "group": "Масло и прочее", "unit": "г"}, "turkey": {"name": "Филе индейки", "kcal": 115, "protein": 24, "group": "Мясо, рыба и яйца", "unit": "г"}, "buckwheat": {"name": "Гречка сухая", "kcal": 343, "protein": 13, "group": "Крупы и хлеб", "unit": "г"}, "beef": {"name": "Постная говядина", "kcal": 150, "protein": 21, "group": "Мясо, рыба и яйца", "unit": "г"}, "potato": {"name": "Картофель", "kcal": 77, "protein": 2, "group": "Овощи и зелень", "unit": "г"}, "pasta": {"name": "Макароны сухие", "kcal": 350, "protein": 12, "group": "Крупы и хлеб", "unit": "г"}, "passata": {"name": "Протёртые томаты без сахара", "kcal": 30, "protein": 1.5, "group": "Овощи и зелень", "unit": "г"}, "cod": {"name": "Филе трески", "kcal": 82, "protein": 18, "group": "Мясо, рыба и яйца", "unit": "г"}, "salmon": {"name": "Лосось", "kcal": 208, "protein": 20, "group": "Мясо, рыба и яйца", "unit": "г"}, "kefir": {"name": "Кефир 2,5%", "kcal": 50, "protein": 3, "group": "Молочные продукты", "unit": "мл"}, "orange": {"name": "Апельсин, мякоть", "kcal": 47, "protein": 0.9, "group": "Фрукты и орехи", "unit": "г"}, "almond": {"name": "Миндаль", "kcal": 580, "protein": 21, "group": "Фрукты и орехи", "unit": "г"}, "kiwi": {"name": "Киви, мякоть", "kcal": 61, "protein": 1.1, "group": "Фрукты и орехи", "unit": "г"}, "apple": {"name": "Яблоко", "kcal": 52, "protein": 0.3, "group": "Фрукты и орехи", "unit": "г"}, "lavash": {"name": "Тонкий лаваш", "kcal": 280, "protein": 8, "group": "Крупы и хлеб", "unit": "г"}, "flour": {"name": "Мука", "kcal": 340, "protein": 10, "group": "Крупы и хлеб", "unit": "г"}, "lentil": {"name": "Красная чечевица сухая", "kcal": 350, "protein": 24, "group": "Крупы и хлеб", "unit": "г"}, "carrot": {"name": "Морковь", "kcal": 35, "protein": 1, "group": "Овощи и зелень", "unit": "г"}, "onion": {"name": "Лук", "kcal": 40, "protein": 1, "group": "Овощи и зелень", "unit": "г"}, "bulgur": {"name": "Булгур сухой", "kcal": 342, "protein": 12, "group": "Крупы и хлеб", "unit": "г"}, "beans": {"name": "Фасоль консервированная, без жидкости", "kcal": 100, "protein": 6, "group": "Овощи и зелень", "unit": "г"}, "pollock": {"name": "Филе минтая", "kcal": 72, "protein": 16, "group": "Мясо, рыба и яйца", "unit": "г"}, "zucchini": {"name": "Кабачок", "kcal": 24, "protein": 1, "group": "Овощи и зелень", "unit": "г"}, "creamcheese": {"name": "Творожный сыр", "kcal": 240, "protein": 6, "group": "Молочные продукты", "unit": "г"}, "peach": {"name": "Персик, мякоть", "kcal": 39, "protein": 0.9, "group": "Фрукты и орехи", "unit": "г"}, "millet": {"name": "Пшено сухое", "kcal": 348, "protein": 11, "group": "Крупы и хлеб", "unit": "г"}, "barley": {"name": "Перловая крупа сухая", "kcal": 352, "protein": 10, "group": "Крупы и хлеб", "unit": "г"}, "sweetpotato": {"name": "Батат", "kcal": 86, "protein": 1.6, "group": "Овощи и зелень", "unit": "г"}, "pear": {"name": "Груша", "kcal": 57, "protein": 0.4, "group": "Фрукты и орехи", "unit": "г"}, "apricot": {"name": "Курага", "kcal": 241, "protein": 3.4, "group": "Фрукты и орехи", "unit": "г"}, "crispbread": {"name": "Цельнозерновые хлебцы", "kcal": 350, "protein": 10, "group": "Крупы и хлеб", "unit": "г"}, "strawberry": {"name": "Клубника", "kcal": 32, "protein": 0.7, "group": "Фрукты и орехи", "unit": "г"}};
 window.RECIPES = [
   {
     "id": "breakfast-1",
@@ -1498,5 +1498,786 @@ window.RECIPES = [
     "kcal": 201,
     "protein": 8,
     "photo": 9
+  },
+  {
+    "id": "breakfast-11",
+    "category": "breakfast",
+    "name": "Пшённая каша с ягодами",
+    "minutes": 25,
+    "ingredients": [
+      {
+        "food": "millet",
+        "amount": 60,
+        "portion": "около ⅓ стакана сухой крупы"
+      },
+      {
+        "food": "milk",
+        "amount": 200,
+        "portion": "неполный стакан"
+      },
+      {
+        "food": "berries",
+        "amount": 100,
+        "portion": "около ⅔ стакана"
+      },
+      {
+        "food": "walnut",
+        "amount": 6,
+        "portion": "1–2 целых ядра"
+      }
+    ],
+    "steps": [
+      "Промой пшено. Залей водой по инструкции на упаковке и вари до полуготовности.",
+      "Добавь молоко, вари на слабом огне до мягкости, помешивая. При необходимости добавь воду.",
+      "Подавай с ягодами и орехами."
+    ],
+    "tags": [
+      "vegetarian"
+    ],
+    "tip": "",
+    "kcal": 402,
+    "protein": 14,
+    "photo": 10
+  },
+  {
+    "id": "breakfast-12",
+    "category": "breakfast",
+    "name": "Шакшука с тостом",
+    "minutes": 20,
+    "ingredients": [
+      {
+        "food": "egg",
+        "amount": 150,
+        "portion": "3 средних яйца"
+      },
+      {
+        "food": "passata",
+        "amount": 200,
+        "portion": "неполный стакан"
+      },
+      {
+        "food": "bread",
+        "amount": 45,
+        "portion": "1 крупный ломтик"
+      },
+      {
+        "food": "oil",
+        "amount": 2,
+        "portion": "чуть меньше ½ ч. л."
+      }
+    ],
+    "steps": [
+      "Прогрей томаты со специями и маслом на небольшой сковороде 5 минут.",
+      "Сделай углубления, разбей в них яйца и готовь под крышкой до полного схватывания белков и желтков.",
+      "Подавай с подсушенным хлебом."
+    ],
+    "tags": [
+      "vegetarian"
+    ],
+    "tip": "",
+    "kcal": 402,
+    "protein": 26,
+    "photo": 11
+  },
+  {
+    "id": "breakfast-13",
+    "category": "breakfast",
+    "name": "Овсяноблин с творогом",
+    "minutes": 15,
+    "ingredients": [
+      {
+        "food": "oats",
+        "amount": 35,
+        "portion": "около ⅓ стакана сухих хлопьев"
+      },
+      {
+        "food": "egg",
+        "amount": 50,
+        "portion": "1 среднее яйцо"
+      },
+      {
+        "food": "milk",
+        "amount": 50,
+        "portion": "3 ст. л. + 1 ч. л."
+      },
+      {
+        "food": "curd",
+        "amount": 100,
+        "portion": "½ пачки 200 г"
+      },
+      {
+        "food": "berries",
+        "amount": 100,
+        "portion": "около ⅔ стакана"
+      }
+    ],
+    "steps": [
+      "Смешай хлопья, яйцо и молоко. Дай постоять 5 минут.",
+      "Вылей на антипригарную сковороду и приготовь без масла с обеих сторон до полной готовности яйца.",
+      "На половину блина положи творог и ягоды, накрой второй половиной."
+    ],
+    "tags": [
+      "vegetarian"
+    ],
+    "tip": "",
+    "kcal": 398,
+    "protein": 30,
+    "photo": 12
+  },
+  {
+    "id": "breakfast-14",
+    "category": "breakfast",
+    "name": "Рисовая каша с яблоком",
+    "minutes": 25,
+    "ingredients": [
+      {
+        "food": "rice",
+        "amount": 55,
+        "portion": "около 1 стакана готового риса"
+      },
+      {
+        "food": "milk",
+        "amount": 200,
+        "portion": "неполный стакан"
+      },
+      {
+        "food": "apple",
+        "amount": 150,
+        "portion": "1 среднее"
+      },
+      {
+        "food": "walnut",
+        "amount": 3,
+        "portion": "около 1 целого ядра"
+      }
+    ],
+    "steps": [
+      "Отвари рис в воде почти до готовности.",
+      "Добавь молоко и мелко нарезанное яблоко, вари на слабом огне до мягкости.",
+      "Посыпь измельчённым орехом. Корица по желанию."
+    ],
+    "tags": [
+      "vegetarian"
+    ],
+    "tip": "",
+    "kcal": 400,
+    "protein": 10,
+    "photo": 13
+  },
+  {
+    "id": "breakfast-15",
+    "category": "breakfast",
+    "name": "Творожная запеканка с бананом",
+    "minutes": 35,
+    "ingredients": [
+      {
+        "food": "curd",
+        "amount": 150,
+        "portion": "¾ пачки 200 г"
+      },
+      {
+        "food": "egg",
+        "amount": 50,
+        "portion": "1 среднее яйцо"
+      },
+      {
+        "food": "flour",
+        "amount": 15,
+        "portion": "1½ ст. л. без горки"
+      },
+      {
+        "food": "banana",
+        "amount": 80,
+        "portion": "1 очень маленький"
+      },
+      {
+        "food": "yogurt",
+        "amount": 50,
+        "portion": "2 ст. л. с горкой"
+      }
+    ],
+    "steps": [
+      "Разомни банан, смешай с творогом, яйцом и мукой.",
+      "Переложи в небольшую силиконовую форму или форму с пергаментом, масло не добавляй.",
+      "Запекай при 180 °C до полного схватывания, обычно 25–30 минут. Подавай с йогуртом."
+    ],
+    "tags": [
+      "vegetarian"
+    ],
+    "tip": "",
+    "kcal": 406,
+    "protein": 36,
+    "photo": 14
+  },
+  {
+    "id": "lunch-11",
+    "category": "lunch",
+    "name": "Курица с перловкой",
+    "minutes": 50,
+    "ingredients": [
+      {
+        "food": "chicken",
+        "amount": 180,
+        "portion": "1 ладонь готового филе"
+      },
+      {
+        "food": "barley",
+        "amount": 60,
+        "portion": "около 1 стакана готовой крупы"
+      },
+      {
+        "food": "carrot",
+        "amount": 80,
+        "portion": "1 небольшая"
+      },
+      {
+        "food": "onion",
+        "amount": 50,
+        "portion": "½ средней луковицы"
+      },
+      {
+        "food": "oil",
+        "amount": 5,
+        "portion": "1 ч. л."
+      }
+    ],
+    "steps": [
+      "Отвари перловку по инструкции; время зависит от сорта и предварительного замачивания.",
+      "Нарежь курицу и овощи, готовь на масле, затем добавь немного воды и потуши до полной готовности птицы.",
+      "Смешай с перловкой."
+    ],
+    "tags": [],
+    "tip": "Время указано ориентировочно. Замачивание или готовая заранее перловка сократят активную готовку.",
+    "kcal": 502,
+    "protein": 49,
+    "photo": 10
+  },
+  {
+    "id": "lunch-12",
+    "category": "lunch",
+    "name": "Говяжьи тефтели с булгуром",
+    "minutes": 35,
+    "ingredients": [
+      {
+        "food": "beef",
+        "amount": 160,
+        "portion": "1 небольшая ладонь мяса / 3 тефтели"
+      },
+      {
+        "food": "bulgur",
+        "amount": 55,
+        "portion": "около 1 стакана готового"
+      },
+      {
+        "food": "passata",
+        "amount": 100,
+        "portion": "около ½ стакана"
+      },
+      {
+        "food": "veg",
+        "amount": 100,
+        "portion": "около 1 кулака"
+      },
+      {
+        "food": "oil",
+        "amount": 2,
+        "portion": "чуть меньше ½ ч. л."
+      }
+    ],
+    "steps": [
+      "Измельчи говядину, добавь специи и немного воды, сформируй 3 небольшие тефтели.",
+      "Положи в сотейник с маслом, томатами и небольшим количеством воды. Туши под крышкой до полной готовности фарша.",
+      "Отвари булгур и подай с тефтелями и овощами."
+    ],
+    "tags": [],
+    "tip": "",
+    "kcal": 501,
+    "protein": 43,
+    "photo": 11
+  },
+  {
+    "id": "lunch-13",
+    "category": "lunch",
+    "name": "Куриный суп с хлебом",
+    "minutes": 35,
+    "ingredients": [
+      {
+        "food": "chicken",
+        "amount": 150,
+        "portion": "1 небольшая ладонь готового филе"
+      },
+      {
+        "food": "potato",
+        "amount": 150,
+        "portion": "1 средний клубень"
+      },
+      {
+        "food": "carrot",
+        "amount": 80,
+        "portion": "1 небольшая"
+      },
+      {
+        "food": "onion",
+        "amount": 50,
+        "portion": "½ средней луковицы"
+      },
+      {
+        "food": "bread",
+        "amount": 55,
+        "portion": "2 небольших ломтика"
+      },
+      {
+        "food": "oil",
+        "amount": 4,
+        "portion": "неполная ч. л."
+      }
+    ],
+    "steps": [
+      "Нарежь курицу и овощи. В кастрюле прогрей лук и морковь с маслом.",
+      "Добавь курицу, картофель и 400–500 мл воды, доведи до кипения и вари до полной готовности птицы и мягкости овощей.",
+      "Подай всю порцию супа с хлебом."
+    ],
+    "tags": [],
+    "tip": "",
+    "kcal": 496,
+    "protein": 43,
+    "photo": 12
+  },
+  {
+    "id": "lunch-14",
+    "category": "lunch",
+    "name": "Минтай с пюре и салатом",
+    "minutes": 35,
+    "ingredients": [
+      {
+        "food": "pollock",
+        "amount": 250,
+        "portion": "около 1½ ладони готового филе"
+      },
+      {
+        "food": "potato",
+        "amount": 250,
+        "portion": "2 средних клубня"
+      },
+      {
+        "food": "milk",
+        "amount": 50,
+        "portion": "3 ст. л. + 1 ч. л."
+      },
+      {
+        "food": "oil",
+        "amount": 5,
+        "portion": "1 ч. л."
+      },
+      {
+        "food": "veg",
+        "amount": 200,
+        "portion": "около 2 кулаков"
+      }
+    ],
+    "steps": [
+      "Отвари картофель, разомни с тёплым молоком.",
+      "Минтай приправь и запеки при 180 °C до готовности.",
+      "Нарежь овощи, заправь указанным маслом и подай с рыбой и пюре."
+    ],
+    "tags": [],
+    "tip": "",
+    "kcal": 494,
+    "protein": 48,
+    "photo": 13
+  },
+  {
+    "id": "lunch-15",
+    "category": "lunch",
+    "name": "Индейка с рисом и кабачком",
+    "minutes": 30,
+    "ingredients": [
+      {
+        "food": "turkey",
+        "amount": 180,
+        "portion": "1 ладонь готового филе"
+      },
+      {
+        "food": "rice",
+        "amount": 60,
+        "portion": "около 1 стакана готового"
+      },
+      {
+        "food": "zucchini",
+        "amount": 200,
+        "portion": "около ⅔ небольшого кабачка"
+      },
+      {
+        "food": "oil",
+        "amount": 3,
+        "portion": "чуть больше ½ ч. л."
+      }
+    ],
+    "steps": [
+      "Отвари рис по инструкции.",
+      "Нарежь индейку и кабачок, прогрей на масле в глубокой сковороде.",
+      "Добавь немного воды и туши под крышкой до полной готовности птицы. Смешай с рисом."
+    ],
+    "tags": [],
+    "tip": "",
+    "kcal": 498,
+    "protein": 49,
+    "photo": 14
+  },
+  {
+    "id": "dinner-11",
+    "category": "dinner",
+    "name": "Котлеты из индейки с булгуром",
+    "minutes": 35,
+    "ingredients": [
+      {
+        "food": "turkey",
+        "amount": 180,
+        "portion": "1 ладонь филе / 2 небольшие котлеты"
+      },
+      {
+        "food": "bulgur",
+        "amount": 60,
+        "portion": "около 1 стакана готового"
+      },
+      {
+        "food": "veg",
+        "amount": 200,
+        "portion": "около 2 кулаков"
+      },
+      {
+        "food": "oil",
+        "amount": 4,
+        "portion": "неполная ч. л."
+      }
+    ],
+    "steps": [
+      "Измельчи индейку, добавь специи и немного воды. Сформируй 2 котлеты.",
+      "Смажь указанным маслом и запеки при 190 °C до полной готовности птицы.",
+      "Отвари булгур, подай с котлетами и овощами."
+    ],
+    "tags": [],
+    "tip": "",
+    "kcal": 498,
+    "protein": 52,
+    "photo": 10
+  },
+  {
+    "id": "dinner-12",
+    "category": "dinner",
+    "name": "Паста с треской",
+    "minutes": 25,
+    "ingredients": [
+      {
+        "food": "cod",
+        "amount": 200,
+        "portion": "1 крупная ладонь готового филе"
+      },
+      {
+        "food": "pasta",
+        "amount": 65,
+        "portion": "около 1¼ стакана готовых коротких макарон"
+      },
+      {
+        "food": "passata",
+        "amount": 150,
+        "portion": "около ⅔ стакана"
+      },
+      {
+        "food": "oil",
+        "amount": 7,
+        "portion": "около 1½ ч. л."
+      }
+    ],
+    "steps": [
+      "Отвари макароны.",
+      "Нарежь треску крупными кусочками, положи в сковороду с томатами и маслом.",
+      "Туши до готовности рыбы, осторожно смешай с макаронами."
+    ],
+    "tags": [],
+    "tip": "",
+    "kcal": 500,
+    "protein": 46,
+    "photo": 11
+  },
+  {
+    "id": "dinner-13",
+    "category": "dinner",
+    "name": "Курица с запечённым бататом",
+    "minutes": 40,
+    "ingredients": [
+      {
+        "food": "chicken",
+        "amount": 200,
+        "portion": "1 крупная ладонь готового филе"
+      },
+      {
+        "food": "sweetpotato",
+        "amount": 250,
+        "portion": "1 средний клубень"
+      },
+      {
+        "food": "veg",
+        "amount": 150,
+        "portion": "небольшая миска"
+      },
+      {
+        "food": "oil",
+        "amount": 3,
+        "portion": "чуть больше ½ ч. л."
+      }
+    ],
+    "steps": [
+      "Нарежь батат дольками, курицу — крупными кусочками, смешай со специями и маслом.",
+      "Разложи на пергаменте и запекай при 190 °C до полной готовности птицы и мягкости батата.",
+      "Подай со свежими овощами."
+    ],
+    "tags": [],
+    "tip": "",
+    "kcal": 500,
+    "protein": 52,
+    "photo": 12
+  },
+  {
+    "id": "dinner-14",
+    "category": "dinner",
+    "name": "Индейка с овощами и рисом",
+    "minutes": 25,
+    "ingredients": [
+      {
+        "food": "turkey",
+        "amount": 180,
+        "portion": "1 ладонь готового филе"
+      },
+      {
+        "food": "rice",
+        "amount": 60,
+        "portion": "около 1 стакана готового"
+      },
+      {
+        "food": "veg",
+        "amount": 200,
+        "portion": "около 2 кулаков"
+      },
+      {
+        "food": "oil",
+        "amount": 3,
+        "portion": "чуть больше ½ ч. л."
+      }
+    ],
+    "steps": [
+      "Отвари рис. Для горячего гарнира возьми перец, морковь и кабачок.",
+      "Нарежь индейку тонкими полосками, овощи — небольшими кусочками. Готовь на масле, при необходимости добавляя воду.",
+      "Когда птица полностью приготовится, подай с рисом."
+    ],
+    "tags": [],
+    "tip": "",
+    "kcal": 500,
+    "protein": 49,
+    "photo": 13
+  },
+  {
+    "id": "dinner-15",
+    "category": "dinner",
+    "name": "Тёплая чечевица с яйцом",
+    "minutes": 25,
+    "ingredients": [
+      {
+        "food": "lentil",
+        "amount": 60,
+        "portion": "около ¾ стакана готовой чечевицы"
+      },
+      {
+        "food": "egg",
+        "amount": 100,
+        "portion": "2 средних яйца"
+      },
+      {
+        "food": "veg",
+        "amount": 200,
+        "portion": "около 2 кулаков"
+      },
+      {
+        "food": "bread",
+        "amount": 25,
+        "portion": "1 тонкий ломтик"
+      },
+      {
+        "food": "oil",
+        "amount": 4,
+        "portion": "неполная ч. л."
+      }
+    ],
+    "steps": [
+      "Отвари чечевицу до мягкости по инструкции, слей лишнюю воду.",
+      "Яйца отвари вкрутую и нарежь. Овощи нарежь свежими либо припусти без дополнительного масла.",
+      "Смешай чечевицу с овощами и маслом, положи сверху яйца. Подавай с хлебом."
+    ],
+    "tags": [
+      "vegetarian"
+    ],
+    "tip": "",
+    "kcal": 500,
+    "protein": 31,
+    "photo": 14
+  },
+  {
+    "id": "snack-11",
+    "category": "snack",
+    "name": "Йогурт с грушей",
+    "minutes": 3,
+    "ingredients": [
+      {
+        "food": "yogurt",
+        "amount": 200,
+        "portion": "неполный стакан"
+      },
+      {
+        "food": "pear",
+        "amount": 140,
+        "portion": "1 небольшая"
+      }
+    ],
+    "steps": [
+      "Нарежь грушу, удали сердцевину и смешай с йогуртом."
+    ],
+    "tags": [
+      "vegetarian",
+      "no-cook"
+    ],
+    "tip": "",
+    "kcal": 200,
+    "protein": 9,
+    "photo": 10
+  },
+  {
+    "id": "snack-12",
+    "category": "snack",
+    "name": "Кефир, курага и орехи",
+    "minutes": 3,
+    "ingredients": [
+      {
+        "food": "kefir",
+        "amount": 200,
+        "portion": "неполный стакан"
+      },
+      {
+        "food": "apricot",
+        "amount": 20,
+        "portion": "около 3 небольших штук"
+      },
+      {
+        "food": "walnut",
+        "amount": 8,
+        "portion": "около 2 целых ядер"
+      }
+    ],
+    "steps": [
+      "Промой курагу, отложи порцию орехов.",
+      "Подавай с кефиром. Крупную курагу можно нарезать."
+    ],
+    "tags": [
+      "vegetarian",
+      "no-cook"
+    ],
+    "tip": "",
+    "kcal": 200,
+    "protein": 8,
+    "photo": 11
+  },
+  {
+    "id": "snack-13",
+    "category": "snack",
+    "name": "Хлебцы с творогом",
+    "minutes": 5,
+    "ingredients": [
+      {
+        "food": "crispbread",
+        "amount": 20,
+        "portion": "около 2–3 хлебцев, смотри упаковку"
+      },
+      {
+        "food": "curd",
+        "amount": 100,
+        "portion": "½ пачки 200 г"
+      },
+      {
+        "food": "tomato",
+        "amount": 50,
+        "portion": "½ небольшого помидора"
+      }
+    ],
+    "steps": [
+      "Разомни творог вилкой, намажь на хлебцы.",
+      "Сверху положи ломтики помидора."
+    ],
+    "tags": [
+      "vegetarian",
+      "no-cook"
+    ],
+    "tip": "",
+    "kcal": 201,
+    "protein": 20,
+    "photo": 12
+  },
+  {
+    "id": "snack-14",
+    "category": "snack",
+    "name": "Творог с клубникой",
+    "minutes": 3,
+    "ingredients": [
+      {
+        "food": "curd",
+        "amount": 140,
+        "portion": "около ⅔ пачки 200 г"
+      },
+      {
+        "food": "strawberry",
+        "amount": 100,
+        "portion": "около 6–8 средних ягод"
+      }
+    ],
+    "steps": [
+      "Клубнику вымой, удали плодоножки и нарежь.",
+      "Добавь к творогу. Замороженную клубнику предварительно разморозь."
+    ],
+    "tags": [
+      "vegetarian",
+      "no-cook"
+    ],
+    "tip": "",
+    "kcal": 201,
+    "protein": 24,
+    "photo": 13
+  },
+  {
+    "id": "snack-15",
+    "category": "snack",
+    "name": "Банан с арахисовой пастой",
+    "minutes": 3,
+    "ingredients": [
+      {
+        "food": "banana",
+        "amount": 120,
+        "portion": "1 средний"
+      },
+      {
+        "food": "peanut",
+        "amount": 15,
+        "portion": "около 1 ст. л. без горки"
+      }
+    ],
+    "steps": [
+      "Нарежь банан.",
+      "Отмерь пасту и подай вместе или намажь на кружочки банана."
+    ],
+    "tags": [
+      "vegetarian",
+      "no-cook"
+    ],
+    "tip": "",
+    "kcal": 197,
+    "protein": 5,
+    "photo": 14
   }
 ];

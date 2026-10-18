@@ -44,16 +44,16 @@ function toast(message){clearTimeout(toastTimer);$('#toast').textContent=message
 function photoStyle(r){return `background-image:url('assets/${r.id}.jpg');`;}
 function photo(r,extra=''){return `<div class="dish-photo ${extra}" style="${photoStyle(r)}" role="img" aria-label="${esc(r.name)} — иллюстрация"></div>`;}
 function amountText(i,multiplier=1){if(i.food==='egg')return `${fmt(i.amount*multiplier/50)} шт.`;return `${fmt(i.amount*multiplier)} ${foods[i.food].unit}`;}
-function ingredientSummary(r){return r.ingredients.map(i=>`${foods[i.food].name.replace(' сухой','').replace(' сухая','').replace(', без жидкости','')}: ${state.mode==='grams'?amountText(i):i.portion}`).join(' · ');}
+function ingredientSummary(r){return r.ingredients.map(i=>`${foods[i.food].name.replace(' сухой','').replace(' сухая','').replace(' сухое','').replace(', без жидкости','')}: ${state.mode==='grams'?amountText(i):i.portion}`).join(' · ');}
 function renderTabs(){
- $('#category-tabs').innerHTML=CATS.map(c=>`<button data-category="${c}" aria-pressed="${category===c}">${PLURALS[c]} <small>10</small></button>`).join('');
+ $('#category-tabs').innerHTML=CATS.map(c=>`<button data-category="${c}" aria-pressed="${category===c}">${PLURALS[c]} <small>${recipes.filter(r=>r.category===c).length}</small></button>`).join('');
  $('#portions-mode').setAttribute('aria-pressed',state.mode==='portions');$('#grams-mode').setAttribute('aria-pressed',state.mode==='grams');
  document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.filter===filter));
 }
 function filteredRecipes(){return recipes.filter(r=>r.category===category).filter(r=>filter==='all'||filter==='quick'&&r.minutes<=15||filter==='vegetarian'&&r.tags.includes('vegetarian')||filter==='favorite'&&state.favorites.includes(r.id)).filter(r=>!query||`${r.name} ${r.ingredients.map(i=>foods[i.food].name).join(' ')}`.toLocaleLowerCase('ru').includes(query));}
 function renderRecipes(){
  const list=filteredRecipes();
- $('#recipe-count').textContent=`${list.length} из 10 вариантов`;
+ $('#recipe-count').textContent=`${list.length} из ${recipes.filter(r=>r.category===category).length} вариантов`;
  $('#catalog-title').textContent=PLURALS[category];
  $('#recipes').innerHTML=list.length?list.map(r=>{
  const selected=state.week[state.day][r.category]===r.id;
