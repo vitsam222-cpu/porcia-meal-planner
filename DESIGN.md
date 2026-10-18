@@ -101,7 +101,7 @@ Dialogs are at most 680px wide or viewport minus 32px, max-height 90vh, and scro
 
 ## Elevation & Depth
 
-Borders and pale tonal surfaces carry most grouping. The hero photo caption uses `0 5px 20px #173f3510`, the selected segmented option `0 2px 4px #173f3510`, and dialogs `0 15px 80px #102d2529` over a `#173f3566` backdrop. Recipe cards change border color on hover without lifting.
+Borders and pale tonal surfaces carry most grouping. The hero photo caption uses `0 5px 20px #173f3510`, the selected shopping-period segmented option `0 2px 4px #173f3510`, and dialogs `0 15px 80px #102d2529` over a `#173f3566` backdrop. Recipe cards change border color on hover without lifting.
 
 Motion is limited to 0.2s card-border and toast transitions, a 0.3s progress transition, and smooth scrolling. The shared ease is `cubic-bezier(.16,1,.3,1)`. Reduced-motion CSS disables transitions/animations and CSS smooth scrolling; JavaScript view-switch scrolling explicitly requests smooth behavior.
 
@@ -112,8 +112,11 @@ Cards, the daily plan and empty states use 14px corners; dialogs use 18px. Butto
 ## Components
 
 - **Navigation and meal tabs:** pale active navigation with bold text; category selection adds a forest 2px underline. Buttons expose `aria-pressed`.
-- **Search and filters:** white bordered search with a 2px forest focus-within outline. Filter pills switch to forest/white when active. The portions/grams segmented control places its selected option on white with a small shadow.
-- **Recipe card:** photograph, favorite button, time/protein/calorie metadata, serif title, ingredient summary and divided action row. Selected add action becomes forest/white and changes to “В меню”. All 80 recipes have individual local generated photos; the catalog states they illustrate dishes rather than actual portions.
+- **Search and filters:** white bordered search with a 2px forest focus-within outline. Filter pills switch to forest/white when active. The search row ends with a quiet “Стакан 250 мл” hint; ingredient quantities use household measures throughout cards, recipes and shopping. The remaining segmented control selects the shopping period, with its selected option on white and a small shadow.
+- **Recipe card:** photograph, favorite button, time/protein/calorie metadata, serif title, ingredient summary and divided action row. Selected add action becomes forest/white and changes to “В меню”. All 240 recipes (60 per meal category) have individual local generated photos; the catalog states they illustrate dishes rather than actual portions.
+- **Preparation selector:** a compact bold label and white bordered native select (42px minimum height, 8px corners), with an underlined reset action when active. Its single selected method combines with search, category, filter pills, pantry and exclusions. Recipe details show method labels on pale, gently rounded tags.
+- **Pantry disclosure:** a flat, line-separated expandable section above results, with a forest chevron, bold title and muted selection summary. Inside, a search field leads to grouped native checkboxes in wrapping bordered labels (40px minimum height, 8px corners); checked labels use pale fill and forest border. The product list scrolls at 300px maximum height. Toggle, strict-match checkbox and clear action wrap beneath a divider. Cards add a divided match summary with missing products; full matches still ask the user to check quantities. On narrow phones the summary moves below the title and controls wrap.
+- **Product exclusions and tolerance:** a second understated disclosure reuses pantry checkbox labels for optional exclusions. Recipe detail contains a bordered disclosure with composition-specific notes and a source link. These communicate individual tolerance without promising symptom-free digestion. Disclosure summaries share the terracotta keyboard-focus outline.
 - **Daily plan:** pale panel, seven-day selector, total/progress bar and four meal slots. Selected day is forest/white; days with meals have a small dot. Empty slots use dashed borders; filled slots have thumbnails and remove controls.
 - **Dialogs:** native recipe, grocery and help dialogs; recipe detail has a photo hero, servings select, ingredient rows and numbered steps. Closing restores focus. Grocery checkboxes strike through checked names.
 - **Feedback and transfer:** centered forest toast appears above the bottom edge for 3200ms. Empty search/favorite states offer recovery. Import is a keyboard-focusable text button opening a hidden file input; export and print share its understated underlined style.
@@ -129,5 +132,3 @@ Global keyboard focus is a 3px terracotta outline offset 4px. Disabled buttons u
 - Don't treat generated photos as evidence of actual prepared serving size.
 
 The “Проще всего” filter selects recipes tagged easy. Cereal household measures are dry-cup measures (250 ml), before cooking.
-
-Ingredient mode switch removed in favour of household measures everywhere, including shopping; a 250 ml cup hint replaces it.
